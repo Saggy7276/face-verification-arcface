@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Generated data (LFW images are downloaded by dataset_preparation.py and must not be redistributed)
+data/
+
+# Model weights (published as a GitHub Release asset instead)
+checkpoints/*.pth
+
+# IDE / OS
+.vscode/
+.idea/
+.claude/
+desktop.ini
+Thumbs.db
+.DS_Store

@@ -1,0 +1,10 @@
+# PyTorch: for an NVIDIA GPU install the CUDA build first, e.g.
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+torch>=2.2
+torchvision>=0.17
+opencv-python>=4.8,<5   # OpenCV 5 removed the Haar CascadeClassifier used for face detection
+numpy>=1.24
+scikit-learn>=1.3
+matplotlib>=3.7
+Pillow>=10.0
+kagglehub>=0.2

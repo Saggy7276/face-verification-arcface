@@ -1,0 +1,35 @@
+Device: cuda (NVIDIA GeForce GTX 1650)
+Train: 427 identities / 3853 images   Val: 61 identities / 537 images
+epoch  0 | ImageNet features only        | val AUC 0.7404 | val rank-1 0.333
+epoch  1 | loss 9.273 | train acc 0.037 | m 0.10 | val AUC 0.7205 | val rank-1 0.283 | 44s  * saved
+epoch  2 | loss 9.221 | train acc 0.287 | m 0.20 | val AUC 0.8401 | val rank-1 0.436 | 23s  * saved
+epoch  3 | loss 9.230 | train acc 0.594 | m 0.30 | val AUC 0.8808 | val rank-1 0.562 | 23s  * saved
+epoch  4 | loss 6.776 | train acc 0.777 | m 0.30 | val AUC 0.8860 | val rank-1 0.641 | 23s  * saved
+epoch  5 | loss 4.870 | train acc 0.885 | m 0.30 | val AUC 0.8956 | val rank-1 0.644 | 23s  * saved
+epoch  6 | loss 3.455 | train acc 0.948 | m 0.30 | val AUC 0.9071 | val rank-1 0.693 | 23s  * saved
+epoch  7 | loss 2.379 | train acc 0.977 | m 0.30 | val AUC 0.9092 | val rank-1 0.723 | 24s  * saved
+epoch  8 | loss 1.708 | train acc 0.991 | m 0.30 | val AUC 0.9100 | val rank-1 0.724 | 23s  * saved
+epoch  9 | loss 1.223 | train acc 0.996 | m 0.30 | val AUC 0.9037 | val rank-1 0.734 | 23s
+epoch 10 | loss 0.939 | train acc 0.997 | m 0.30 | val AUC 0.9078 | val rank-1 0.739 | 23s
+epoch 11 | loss 0.684 | train acc 0.999 | m 0.30 | val AUC 0.9109 | val rank-1 0.726 | 24s  * saved
+epoch 12 | loss 0.578 | train acc 0.998 | m 0.30 | val AUC 0.9095 | val rank-1 0.747 | 23s
+epoch 13 | loss 0.440 | train acc 0.999 | m 0.30 | val AUC 0.9099 | val rank-1 0.739 | 23s
+epoch 14 | loss 0.332 | train acc 1.000 | m 0.30 | val AUC 0.9111 | val rank-1 0.747 | 24s  * saved
+epoch 15 | loss 0.308 | train acc 1.000 | m 0.30 | val AUC 0.9129 | val rank-1 0.760 | 23s  * saved
+epoch 16 | loss 0.255 | train acc 1.000 | m 0.30 | val AUC 0.9139 | val rank-1 0.767 | 23s  * saved
+epoch 17 | loss 0.221 | train acc 0.999 | m 0.30 | val AUC 0.9139 | val rank-1 0.762 | 23s  * saved
+epoch 18 | loss 0.202 | train acc 0.999 | m 0.30 | val AUC 0.9119 | val rank-1 0.764 | 23s
+epoch 19 | loss 0.195 | train acc 0.999 | m 0.30 | val AUC 0.9108 | val rank-1 0.762 | 23s
+epoch 20 | loss 0.200 | train acc 0.999 | m 0.30 | val AUC 0.9109 | val rank-1 0.758 | 23s
+epoch 21 | loss 0.170 | train acc 1.000 | m 0.30 | val AUC 0.9124 | val rank-1 0.760 | 23s
+epoch 22 | loss 0.162 | train acc 1.000 | m 0.30 | val AUC 0.9129 | val rank-1 0.767 | 23s
+epoch 23 | loss 0.160 | train acc 1.000 | m 0.30 | val AUC 0.9131 | val rank-1 0.752 | 23s
+epoch 24 | loss 0.133 | train acc 1.000 | m 0.30 | val AUC 0.9133 | val rank-1 0.760 | 23s
+epoch 25 | loss 0.140 | train acc 0.999 | m 0.30 | val AUC 0.9143 | val rank-1 0.758 | 23s  * saved
+epoch 26 | loss 0.141 | train acc 1.000 | m 0.30 | val AUC 0.9141 | val rank-1 0.758 | 23s
+epoch 27 | loss 0.127 | train acc 1.000 | m 0.30 | val AUC 0.9139 | val rank-1 0.760 | 23s
+epoch 28 | loss 0.120 | train acc 0.999 | m 0.30 | val AUC 0.9150 | val rank-1 0.760 | 23s  * saved
+epoch 29 | loss 0.108 | train acc 1.000 | m 0.30 | val AUC 0.9133 | val rank-1 0.758 | 23s
+epoch 30 | loss 0.106 | train acc 1.000 | m 0.30 | val AUC 0.9139 | val rank-1 0.756 | 23s
+
+Best val AUC 0.9150 at epoch 28 -> checkpoints/best_model.pth
