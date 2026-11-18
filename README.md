@@ -111,8 +111,9 @@ pip install -r requirements.txt
 ```
 The first run downloads LFW (~110 MB) via kagglehub and the ImageNet ResNet50 weights (~100 MB).
 
-**Pretrained checkpoint:** `checkpoints/best_model.pth` (~99 MB) is not stored in git. Download it from the
-[Releases page](https://github.com/Saggy7276/face-verification-arcface/releases) into `checkpoints/` to skip training,
+**Pretrained checkpoint:** `checkpoints/best_model.pth` (~99 MB) is not stored in git.
+[Download it here](https://github.com/Saggy7276/face-verification-arcface/releases/download/v1.0/best_model.pth)
+and save it as `checkpoints/best_model.pth` to skip training,
 or train your own with `python train.py`.
 
 ## 3. Training command
