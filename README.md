@@ -47,7 +47,7 @@ alignment (Huang et al., NIPS 2012). That alignment is why no additional landmar
 | | |
 |---|---|
 | Dataset owner | Computer Vision Laboratory, University of Massachusetts Amherst |
-| Official page | <http://vis-www.cs.umass.edu/lfw/> |
+| Official page | <http://vis-www.cs.umass.edu/lfw/> (often offline; the Kaggle mirror below is used instead) |
 | Copy used here | Kaggle mirror [`jessicali9530/lfw-dataset`](https://www.kaggle.com/datasets/jessicali9530/lfw-dataset) (the `lfw-deepfunneled` folder), downloaded automatically by `dataset_preparation.py` with `kagglehub` (~110 MB) |
 | Citation | G. B. Huang, M. Ramesh, T. Berg, E. Learned-Miller. *Labeled Faces in the Wild: A Database for Studying Face Recognition in Unconstrained Environments.* University of Massachusetts Amherst, Technical Report 07-49, October 2007. |
 | Alignment citation | G. B. Huang, M. Mattar, H. Lee, E. Learned-Miller. *Learning to Align from Scratch.* NIPS 2012. |
